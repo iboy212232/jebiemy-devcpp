@@ -5,7 +5,9 @@
  int main ()
  {
  	
- 	cin>>a
+ 	cout<<"Welcome to me project"<<endl;
+ 	cout<<"try to have fun"<<endl;
+ 	
  	
  	
 return 0;
