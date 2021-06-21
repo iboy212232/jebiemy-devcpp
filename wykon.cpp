@@ -24,7 +24,14 @@
  	cout<<"1. true"<<endl;
  	cout<<"2. false"<<endl;
  	cin>>t;
- 	
+	 while (t==1)
+	 {
+		
+		 cout<<"okay i will try to remeber that"<<endl;
+
+	 }
+	
+	 
  	
 return 0;
  }
