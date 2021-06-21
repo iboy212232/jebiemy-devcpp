@@ -6,32 +6,21 @@
 #include <unistd.h>
 #include <dos.h>
 #include <windows.h>
- using namespace std;
- float a;
- int t;
- int main ()
- {
- 	
- 	cout<<"Welcome to me project"<<endl;
- 	cout<<"try to have fun"<<endl;
+using namespace std;
+float a;
+short t;
+int main (){
+	cout<<"Welcome to my project \nI hope you will enjoy"<<endl;
  	sleep (3);
  	system("CLS");
- 	cout<<"give me a number :\n";
+ 	cout<<"Give me a number: ";
  	cin>>a;
- 	cout<<"your number is: "<<a<<"  "<<endl;
+ 	cout<<"your number is: "<<a<<endl;
+ 	sleep (3);
  	system("CLS");
- 	cout<<"are you sure? "<<endl;
- 	cout<<"1. true"<<endl;
- 	cout<<"2. false"<<endl;
+ 	cout<<"Are you sure? "<<endl<<"1 - yes"<<endl<<"0 - no"<<endl;
  	cin>>t;
-	 while (t==1)
-	 {
-		
-		 cout<<"okay i will try to remeber that"<<endl;
-
-	 }
-	
-	 
- 	
-return 0;
- }
+	while (t)
+		cout<<"Okay i will try to remeber that"<<endl;
+	return 0;
+}
